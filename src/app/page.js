@@ -1,6 +1,6 @@
 import Image from "next/image";
-// import profile from "@/app/profile.webp";
-// import githubIcon from "@/app/github.svg";
+import profile from "@/app/profile.webp";
+import githubIcon from "@/app/github.svg";
 
 export default function Home() {
   return (
