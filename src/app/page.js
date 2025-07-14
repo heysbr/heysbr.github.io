@@ -4,26 +4,26 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full max-w-2xl">
-        {/* <Image
+        <Image
           className="rounded-full mb-4"
           src={profile}
           alt="Profile picture"
           width={120}
           height={120}
           priority
-        /> */}
+        />
         <h1 className="text-3xl font-bold mb-2 text-center sm:text-left">
-          Hi, I'm Priyanshu Sabaar
+          Hi, I&apos;m Priyanshu Sabaar
         </h1>
         <p className="text-lg text-gray-400 text-center sm:text-left mb-6">
-          I'm a passionate web developer building modern, performant web apps.
+          I&apos;m a passionate web developer building modern, performant web apps.
           My tech stack includes <span className="font-semibold">React</span>,{" "}
           <span className="font-semibold">Next.js</span>,{" "}
           <span className="font-semibold">Zustand</span>, and{" "}
           <span className="font-semibold">Tailwind CSS</span>. I love learning
-          new things every day and pushing the boundaries of what's possible on
+          new things every day and pushing the boundaries of what&apos;s possible on
           the web.
         </p>
         <div className="flex gap-4 flex-wrap justify-center sm:justify-start mb-8">
@@ -46,7 +46,7 @@ export default function Home() {
             href="https://github.com/priyanshu-sabaar"
             target="_blank"
           >
-            {/* <Image src={githubIcon} alt="GitHub" width={20} height={20} /> */}
+            <Image src={githubIcon} alt="GitHub" width={20} height={20} />
             GitHub
           </a>
           <a
